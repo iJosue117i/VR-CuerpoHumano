@@ -5,6 +5,7 @@ using UnityEngine;
 public class S_Enzima : MonoBehaviour
 {
     public Rigidbody rb;
+    public float time = 2;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -14,7 +15,7 @@ public class S_Enzima : MonoBehaviour
     {
         if (!rb.useGravity)
         {
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(time);
             rb.useGravity = true;
         }
     }

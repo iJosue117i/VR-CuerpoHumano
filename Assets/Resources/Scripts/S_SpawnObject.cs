@@ -8,14 +8,21 @@ public class S_SpawnObject : MonoBehaviour
     public float radius = 0.5f;
     public float limitX = 0.15f;
 
+    public float time;
     public int totalObjSpawn = 10;
     // Start is called before the first frame update  
     void Start()
     {
+        //SpawnObject();
+    }
+
+    IEnumerator SpawnTime()
+    {
+        yield return new WaitForSeconds(time);
         SpawnObject();
     }
 
-    void SpawnObject()
+    public void SpawnObject()
     {
         for (int i = 0; i < totalObjSpawn; i++)
         {
