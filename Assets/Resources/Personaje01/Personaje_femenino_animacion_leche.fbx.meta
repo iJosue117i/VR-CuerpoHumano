@@ -27,6 +27,41 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Dijestivo_Higado
+    second: {fileID: 2100000, guid: 14bce17620737714d94cda917391c2f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Intestino_delgado
+    second: {fileID: 2100000, guid: 9f7f42ef0d1421f449871d7a9be493ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Intestino_grueso
+    second: {fileID: 2100000, guid: 9102da853aeab974fa9ef4c4cd84fc2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Lengua
+    second: {fileID: 2100000, guid: 9fac2037a0405c54a97ce9b353aed912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Oral_cavity
+    second: {fileID: 2100000, guid: 7b6f11e1f0cf6ac4f9ca3bbdb1ef9f06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Pancreas
+    second: {fileID: 2100000, guid: bd4c62a6e404d1143a6e41eb1e3a1157, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_estomago
+    second: {fileID: 2100000, guid: 11c510d46ec37c544bb37205f0002eca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Hair_Transparency
     second: {fileID: 2100000, guid: d9525bd5f3cd12b499170b627f3e3cac, type: 2}
   - first:
