@@ -39,12 +39,16 @@ public class Movement : MonoBehaviour
 
     public UnityEvent quemadura;
 
+    private void Awake()
+    {
+        StartCoroutine(TransitionLvlOut());
+
+    }
     // Start is called before the first frame update
     void Start()
     {
         character = GetComponent<CharacterController>();
         rig = GetComponent<XROrigin>();
-        //StartCoroutine(TransitionLvlOut());
     }
 
     // Update is called once per frame
