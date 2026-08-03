@@ -29,7 +29,7 @@ public class S_SpawnObject : MonoBehaviour
         {
             Vector3 randomPos = transform.position + Random.insideUnitSphere * radius;
             randomPos.x = transform.position.x + Random.Range(-limitX, limitX);
-            GameObject obj = Instantiate(prefab, randomPos + Vector3.up * 10, Quaternion.identity);
+            GameObject obj = Instantiate(prefab, randomPos + Vector3.up * 5, Quaternion.identity);
             obj.GetComponent<S_Enzima>().finalPosY = randomPos.y;
             enzimas.Add(obj.GetComponent<S_Enzima>());
         }

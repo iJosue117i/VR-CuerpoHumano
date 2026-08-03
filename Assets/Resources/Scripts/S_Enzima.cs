@@ -5,7 +5,8 @@ public class S_Enzima : MonoBehaviour
 {
     public Rigidbody rb;
     public float time = 2;
-    float velocidad = 1.25f;
+    float velocidad = 1f;
+    public AnimationCurve curvaVelocidad;
     public float finalPosY;
 
     public GameObject efectoPepsina;
@@ -60,7 +61,8 @@ public class S_Enzima : MonoBehaviour
         Vector3 posicionFinal=new Vector3(transform.position.x,finalPosY,transform.position.z);
         while (Mathf.Abs(transform.position.y - finalPosY) > 0.01f)
         {
-            transform.position = Vector3.MoveTowards(transform.position, posicionFinal, velocidad * Time.deltaTime);
+            float velocityMove = curvaVelocidad.Evaluate(Mathf.Abs(transform.position.y-finalPosY))*velocidad;
+            transform.position = Vector3.MoveTowards(transform.position, posicionFinal, velocityMove * Time.deltaTime);
             yield return new WaitForFixedUpdate();
         }
         transform.position = posicionFinal;

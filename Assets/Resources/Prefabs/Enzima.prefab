@@ -160,6 +160,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 8062107572786367275}
   time: 2
+  curvaVelocidad:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -0.048691645
+      outSlope: -0.048691645
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.090076335
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 7.4227076
+      outSlope: 7.4227076
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.049057204
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   finalPosY: 0
   efectoPepsina: {fileID: 8188605652193641172}
   particulaHija: {fileID: 3609133620445150476}

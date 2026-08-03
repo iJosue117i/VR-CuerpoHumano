@@ -6010,7 +6010,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: bd0d099266f199542b41c76a3c0a2c16, type: 3}
     m_FontSize: 68
     m_FontStyle: 0
     m_BestFit: 0
@@ -13165,7 +13165,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 152680998695779038, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 152680998695779038, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
       propertyPath: m_TagString

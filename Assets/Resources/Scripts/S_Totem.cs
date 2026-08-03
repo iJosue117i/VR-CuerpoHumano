@@ -46,10 +46,10 @@ public class S_Totem : MonoBehaviour
     IEnumerator TotemEvento()
     {
         timer = 0;
-        while (tocando && timer < 2)
+        while (tocando && timer < 1)
         {
             timer += Time.deltaTime;
-            if (timer >= 2.0f)
+            if (timer >= 1f)
             {
                 director.Play();
                 audioSC.PlayOneShot(clip);
