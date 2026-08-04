@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class S_soltarObjeto : MonoBehaviour
@@ -8,6 +8,7 @@ public class S_soltarObjeto : MonoBehaviour
     public bool activado = false;
     public float timer;
     public Animator animatorControl;
+    public S_directorCondition director;
 
     XRGrabInteractable grabInteractable;
     public Transform puntoDestino; // Asigna el destino desde el Inspector
@@ -15,6 +16,7 @@ public class S_soltarObjeto : MonoBehaviour
 
     private void Awake()
     {
+
         grabInteractable = GetComponent<XRGrabInteractable>();
         StartCoroutine(SoltarTrasDosSegundosNoAgarrado());
         //grabInteractable.selectEntered.AddListener(OnSelectEntered);
@@ -28,6 +30,7 @@ public class S_soltarObjeto : MonoBehaviour
     public void AgarrarObjeto(SelectEnterEventArgs args)
     {
         activado = true;
+        director.StartTimeline();
         StartCoroutine(SoltarTrasDosSegundos(args.interactorObject as IXRSelectInteractor));
     }
 
@@ -56,6 +59,7 @@ public class S_soltarObjeto : MonoBehaviour
     IEnumerator SoltarTrasDosSegundosNoAgarrado()
     {
         yield return new WaitForSeconds(timer);
+        director.StartTimeline();
         if (!activado)
         {
             animatorControl.SetTrigger("Aparecer");
