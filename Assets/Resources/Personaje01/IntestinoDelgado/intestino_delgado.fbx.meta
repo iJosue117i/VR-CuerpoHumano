@@ -8,7 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.003
-    second: {fileID: 2100000, guid: 0e8f3c7c90dcaf94a8e309d16b231596, type: 2}
+    second: {fileID: 2100000, guid: 95e858b337cbcc143b141b4fd62f5207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vellos
+    second: {fileID: 2100000, guid: 7d2a74ca2675cb44581fa25de108e2f6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

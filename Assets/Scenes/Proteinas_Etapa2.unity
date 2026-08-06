@@ -863,6 +863,8 @@ PlayableDirector:
     value: {fileID: 8406226553552231547}
   - key: {fileID: -4817838816405101186, guid: 41b3dcc90c68b23468f5f79abaf0e016, type: 2}
     value: {fileID: 8406226553552231548}
+  - key: {fileID: -1928155504489507900, guid: 41b3dcc90c68b23468f5f79abaf0e016, type: 2}
+    value: {fileID: 1526824054}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &305868535
@@ -3834,6 +3836,34 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -747465644658158018, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -747465644658158018, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.9864303
+      objectReference: {fileID: 0}
+    - target: {fileID: -747465644658158018, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.7752867
+      objectReference: {fileID: 0}
+    - target: {fileID: -747465644658158018, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.06777519
+      objectReference: {fileID: 0}
+    - target: {fileID: -747465644658158018, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 4.469934
+      objectReference: {fileID: 0}
+    - target: {fileID: -747465644658158018, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 2.3746727
+      objectReference: {fileID: 0}
+    - target: {fileID: -747465644658158018, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1.34671
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
       propertyPath: m_Name
       value: intestino_delgado
@@ -3898,19 +3928,40 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[1]
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8758812514450064846, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8758812514450064846, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6a2585f6e74670745adc51283e302e6b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -4539073867696821310, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1526824054}
   m_SourcePrefab: {fileID: 100100000, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+--- !u!1 &1526824053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4539073867696821310, guid: 478e53a9517be9d4884e0a0927678cc3, type: 3}
+  m_PrefabInstance: {fileID: 1526824052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1526824054
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526824053}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1601947066
 GameObject:
   m_ObjectHideFlags: 0
