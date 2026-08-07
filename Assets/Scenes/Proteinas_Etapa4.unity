@@ -750,6 +750,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 90c37fb2872d8a441b5a8dd8c81004e5, type: 2}
     - {fileID: 11400000, guid: e85a326fce8f15240b40aa3efd0d257b, type: 2}
     - {fileID: 11400000, guid: f18c2310ebbb08d4fa8a2ce3e6391460, type: 2}
+    - {fileID: 11400000, guid: e38a25ea5512eb340a6d6c7e9ad96453, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -808,6 +809,20 @@ MonoBehaviour:
         - m_Target: {fileID: 5221662320972500996}
           m_TargetAssemblyTypeName: S_SoltarAminoacidos, Assembly-CSharp
           m_MethodName: LiberarAminoacidosDirector
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4676065889204424739}
+          m_TargetAssemblyTypeName: Movement, Assembly-CSharp
+          m_MethodName: llamarTransitionIn
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -8755,6 +8770,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2521878604370515868, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
   m_PrefabInstance: {fileID: 4676065889204424737}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4676065889204424739 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2315006648526586797, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
+  m_PrefabInstance: {fileID: 4676065889204424737}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c8bf993bdb87dc4a9d0e29e38346399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4844961273209408186
 Transform:
   m_ObjectHideFlags: 0
