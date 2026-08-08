@@ -4213,6 +4213,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1752224089}
     m_Modifications:
     - target: {fileID: -9029751383192924156, guid: 0d46c176da0968e449dfd6c85877e675, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -9029751383192924156, guid: 0d46c176da0968e449dfd6c85877e675, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 993e8c5589aa4a746961fd1535542ff5, type: 2}
@@ -4352,6 +4356,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4619570145654201151, guid: 0d46c176da0968e449dfd6c85877e675, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4539073867696821310, guid: 0d46c176da0968e449dfd6c85877e675, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4433,6 +4441,10 @@ PrefabInstance:
       value: Circulatorio
       objectReference: {fileID: 0}
     - target: {fileID: 5069197362776692364, guid: 0d46c176da0968e449dfd6c85877e675, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705273143842324814, guid: 0d46c176da0968e449dfd6c85877e675, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
