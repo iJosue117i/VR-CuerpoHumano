@@ -3,7 +3,62 @@ guid: 113881335dddff647ae80a040e6f9727
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Brazos
+    second: {fileID: 2100000, guid: 82846803cc165b24f91b11bfa19e2651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Cabeza
+    second: {fileID: 2100000, guid: 9964ac64de020d541aa5d78459e76df6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Dientes
+    second: {fileID: 2100000, guid: 031bda06081d5cf4aa492343f567fc82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Espina
+    second: {fileID: 2100000, guid: 0f0976c5f56e16146baf2a9daf4f478d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Pelvis
+    second: {fileID: 2100000, guid: 2753d742fa31095479764cd4e6888fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Piernas
+    second: {fileID: 2100000, guid: ade6be2f4fe170843ac2f2d8ba203f70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Torrax
+    second: {fileID: 2100000, guid: ff36150e03172264fa3117ed64411bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Brazos
+    second: {fileID: 2100000, guid: c4b9fa4b8b96ba44f834de2de97dc6aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Cabeza_cuello
+    second: {fileID: 2100000, guid: 3f4dc42fcdd5a36499825f5c7c965ae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Piernas
+    second: {fileID: 2100000, guid: 12547496ec0bf3d409cdd5e98c742f6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Tronco
+    second: {fileID: 2100000, guid: b74ec91b0e6b78046b9746132306bb45, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -24,7 +79,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -93,13 +148,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
