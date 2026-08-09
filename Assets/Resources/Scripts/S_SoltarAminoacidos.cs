@@ -10,6 +10,7 @@ public class S_SoltarAminoacidos : MonoBehaviour
     XRGrabInteractable grabInteractable;
     public Transform puntoDestino; // Asigna el destino desde el Inspector
     public float velocidadMovimiento = 2f;
+    public float waitTime = 0.5f;
 
     private void Awake() => grabInteractable = GetComponent<XRGrabInteractable>();
 
@@ -60,7 +61,7 @@ public class S_SoltarAminoacidos : MonoBehaviour
 
     IEnumerator SoltarAminoacidoDirector()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(waitTime);
         if (!activado)
         {
             activado = true;
