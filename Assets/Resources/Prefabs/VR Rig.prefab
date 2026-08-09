@@ -1493,10 +1493,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4694992624907547088, guid: e9230c8d4e442dd46a53d4b52c75e290, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8201975999680199327, guid: e9230c8d4e442dd46a53d4b52c75e290, type: 3}
       propertyPath: m_Name
       value: Left Controller

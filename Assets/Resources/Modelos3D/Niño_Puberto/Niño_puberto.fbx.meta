@@ -3,7 +3,242 @@ guid: 11db80e9bd3e16246b84c0bf10a87b02
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boxers.001
+    second: {fileID: 2100000, guid: 5f07466493a979b42b1d8741ebd7f4d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brows_Base_Transparency.001
+    second: {fileID: 2100000, guid: 7133d36778b089045bf1bf6f7c4ade32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brows_Color_Transparency.001
+    second: {fileID: 2100000, guid: d6ab7f9012d5a794f829b60d27583224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brows_Hair_Transparency.001
+    second: {fileID: 2100000, guid: eebbcd5ec78b11d47820a8ba098351a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Higado
+    second: {fileID: 2100000, guid: 7377bf96cc0d5924d85056b3ea7da997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Intestino_delgado
+    second: {fileID: 2100000, guid: 922a30869e2d58247904e5a97b00a7c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Intestino_grueso
+    second: {fileID: 2100000, guid: 57b2ac16c6045694c952c716c71e0a02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Lengua
+    second: {fileID: 2100000, guid: 5cb5ae99e065f9f4eac765462ebf5807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Oral_cavity
+    second: {fileID: 2100000, guid: 87a67e1a895438947a4770e11e32ee65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_Pancreas
+    second: {fileID: 2100000, guid: b107606181879d14480df70fad192fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dijestivo_estomago
+    second: {fileID: 2100000, guid: 46fa482aaeb138b43bfca52936654311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair_Transparency.002
+    second: {fileID: 2100000, guid: 7619dd2a36b7a074080ebacfb3b6e1a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lash_Fine_Transparency.001
+    second: {fileID: 2100000, guid: 669f9d58d1e938842a5a208f2dcb318e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lash_Thick_Transparency.001
+    second: {fileID: 2100000, guid: b8b2ec1b71fbfe44e930961c880659f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Brain
+    second: {fileID: 2100000, guid: 42e786115d87cc5408477c3790ce4246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Maters
+    second: {fileID: 2100000, guid: 66288ebc3549d264c9b01857846b701e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Membrane
+    second: {fileID: 2100000, guid: 5c09e60c330852740a7cf02bf4b42bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Nervous
+    second: {fileID: 2100000, guid: ac96526ad600b2d429e2dbe4500603d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scalp_Transparency.001
+    second: {fileID: 2100000, guid: 92dfea1d56861b14a984bdc3aa89475b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Brazos
+    second: {fileID: 2100000, guid: 82846803cc165b24f91b11bfa19e2651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Cabeza
+    second: {fileID: 2100000, guid: 9964ac64de020d541aa5d78459e76df6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Dientes
+    second: {fileID: 2100000, guid: 031bda06081d5cf4aa492343f567fc82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Espina
+    second: {fileID: 2100000, guid: 0f0976c5f56e16146baf2a9daf4f478d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Pelvis
+    second: {fileID: 2100000, guid: 2753d742fa31095479764cd4e6888fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Piernas
+    second: {fileID: 2100000, guid: ade6be2f4fe170843ac2f2d8ba203f70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Torrax
+    second: {fileID: 2100000, guid: ff36150e03172264fa3117ed64411bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Cornea_L.001
+    second: {fileID: 2100000, guid: 97310d628bdf0464babdd1f4b1cf5817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Cornea_R.001
+    second: {fileID: 2100000, guid: 69381bc2fcb2afd479e468d60167173c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_L.001
+    second: {fileID: 2100000, guid: 6d2532606da438a49b8e5afa699e5264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_Occlusion_L.001
+    second: {fileID: 2100000, guid: 578fe143335505a4f9a52cd2a0f7c15e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_Occlusion_R.001
+    second: {fileID: 2100000, guid: 39aaebdfdb636e94ab7353411f181f61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_R.001
+    second: {fileID: 2100000, guid: 095f008416bfe844cb2bb36bdb83cf5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eyelash.001
+    second: {fileID: 2100000, guid: aa8847468f1758942b6431ab67d950b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Nails.001
+    second: {fileID: 2100000, guid: b14a293e965fd4b4696205aee8eead5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Arm.001
+    second: {fileID: 2100000, guid: 1e00bb5f439de664a8af3d4a2b91bc36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Body.001
+    second: {fileID: 2100000, guid: 5456c08317fbed3429c19d2c77f2efc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head.001
+    second: {fileID: 2100000, guid: 0a98b9445b02cc44c92a3d5376fd341a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Leg.001
+    second: {fileID: 2100000, guid: fcc9d8195fb3f4841ab56ad724bfdc04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Tearline_L.001
+    second: {fileID: 2100000, guid: 0078984db2357a9449f575008a2ee953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Tearline_R.001
+    second: {fileID: 2100000, guid: ae14347c68b89a34b83f0f60841a9aa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: circulatorio_Arteries_rojo
+    second: {fileID: 2100000, guid: 630540265ee615d458126ec2366e7cef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: circulatorio_Corazon
+    second: {fileID: 2100000, guid: 84eea3245f7d70d4fb44e8ef6d263012, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: circulatorio_Veins_azul
+    second: {fileID: 2100000, guid: 9b56f9fd29ecf4346b5d8d6141858424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Brazos
+    second: {fileID: 2100000, guid: c4b9fa4b8b96ba44f834de2de97dc6aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Cabeza_cuello
+    second: {fileID: 2100000, guid: 3f4dc42fcdd5a36499825f5c7c965ae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Piernas
+    second: {fileID: 2100000, guid: 12547496ec0bf3d409cdd5e98c742f6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muscles_Tronco
+    second: {fileID: 2100000, guid: b74ec91b0e6b78046b9746132306bb45, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -24,7 +259,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -41,10 +276,10 @@ ModelImporter:
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -57,7 +292,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    optimizeBones: 1
+    optimizeBones: 0
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -78,7 +313,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -93,7 +328,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
@@ -101,7 +336,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
