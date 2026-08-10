@@ -425,7 +425,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248429518}
-  m_Text: JUMP
+  m_Text: SALTAR
   m_OffsetZ: 0
   m_CharacterSize: 0.015
   m_LineSpacing: 1
@@ -2034,7 +2034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.574, y: 1.318}
+  m_AnchoredPosition: {x: -1.6210847, y: 1.348}
   m_SizeDelta: {x: 626.4, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1007467851
@@ -2449,7 +2449,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pulsa los botones con tu mano
+  m_Text: "Acerca tu mano para activar la animaci\xF3n"
 --- !u!222 &1149914976
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2484,7 +2484,7 @@ Transform:
   m_GameObject: {fileID: 1181439754}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.000000012167966}
-  m_LocalPosition: {x: 0.8530847, y: 0.7971642, z: -1.10063}
+  m_LocalPosition: {x: 0.806, y: 0.7971642, z: -1.10063}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2843,7 +2843,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323478940}
-  m_Text: STRETCH
+  m_Text: ESTIRARSE
   m_OffsetZ: 0
   m_CharacterSize: 0.015
   m_LineSpacing: 1
@@ -3096,7 +3096,7 @@ Transform:
   m_GameObject: {fileID: 1374838989}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.000000012167966}
-  m_LocalPosition: {x: 0.8530847, y: 0.7971642, z: -0.50062996}
+  m_LocalPosition: {x: 0.806, y: 0.7971642, z: -0.50062996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3319,7 +3319,7 @@ Transform:
   m_GameObject: {fileID: 1413608412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.000000012167966}
-  m_LocalPosition: {x: 0.8530847, y: 0.7971642, z: 0.09937006}
+  m_LocalPosition: {x: 0.806, y: 0.7971642, z: 0.09937006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3585,7 +3585,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573665049}
-  m_Text: RUN
+  m_Text: CORRER
   m_OffsetZ: 0
   m_CharacterSize: 0.015
   m_LineSpacing: 1
