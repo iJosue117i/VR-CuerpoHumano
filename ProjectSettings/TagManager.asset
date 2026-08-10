@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Manos
   - Estomago
+  - Suelo
+  - Boca
   layers:
   - Default
   - TransparentFX

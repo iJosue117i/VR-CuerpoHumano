@@ -2164,7 +2164,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Voz en Off - Proteinas
   - m_Version: 1
-    m_Start: 0
+    m_Start: 0.5666659037272126
     m_ClipIn: 159.73496153469432
     m_Asset: {fileID: 7907455516390804960}
     m_Duration: 19.983333333333334
