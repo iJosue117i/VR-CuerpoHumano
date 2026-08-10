@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Proteinas_Etapa7.unity
     guid: 827feca5e775d1c4d9ef6920697f7fc2
+  - enabled: 1
+    path: Assets/Scenes/Proteinas_Etapa8.unity
+    guid: 9466325e2b0c09c4987a0db1cb93870a
+  - enabled: 1
+    path: Assets/Scenes/Proteinas_Etapa9.unity
+    guid: b7ef7eb8f9adb9c4880bd7a3a3b11b99
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9b7695ad8ba3236499445f8210858c8d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 73a197ed3495b3445830c87009088e81, type: 2}
