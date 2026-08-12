@@ -21,7 +21,11 @@ public class Movement : MonoBehaviour
     private Vector2 inputAxis;
     private CharacterController character;
 
+    [Header("USE TRANSITION")]
+    public bool initWithTransition = true;
     public MeshRenderer sphereEvents;
+
+
     public bool Warning = false;
     public float sinv;
 
@@ -41,6 +45,7 @@ public class Movement : MonoBehaviour
 
     private void Awake()
     {
+        if(initWithTransition)
         StartCoroutine(TransitionLvlOut());
 
     }
