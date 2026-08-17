@@ -303,7 +303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 165993439}
   m_Layer: 0
-  m_Name: suces
+  m_Name: Luces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
