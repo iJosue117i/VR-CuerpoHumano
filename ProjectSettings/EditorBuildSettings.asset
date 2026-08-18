@@ -5,36 +5,45 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa2.unity
     guid: f0396fdd29d54ab4d9fba93075221ea1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa3.unity
     guid: 84794c4ba884b1542a0b59168fa32099
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa4.unity
     guid: ab652a6db1fd55d469fbbb484bfc8ef7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa5.unity
     guid: 24b645f0dbde57a498bc6408c01b9979
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa6.unity
     guid: 241e9cdeaa610084b9e406fcda5c6e51
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa7.unity
     guid: 827feca5e775d1c4d9ef6920697f7fc2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa8.unity
     guid: 9466325e2b0c09c4987a0db1cb93870a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa9.unity
     guid: b7ef7eb8f9adb9c4880bd7a3a3b11b99
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proteinas_Etapa10.unity
     guid: d3f9bb962efc27e45b2a2a494034319b
+  - enabled: 1
+    path: Assets/Escenas Osteoporosis/Osteoporosis_Etapa 1.unity
+    guid: 3e184821798bd734bb27227469e6fd0a
+  - enabled: 1
+    path: Assets/Escenas Osteoporosis/Osteoporosis_Etapa 2.unity
+    guid: ddeac4e99304a1149b1882d754bc4fda
+  - enabled: 1
+    path: Assets/Escenas Osteoporosis/Osteoporosis_Etapa 3.unity
+    guid: 69d9015abf8ead340bc90e75578ecc97
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9b7695ad8ba3236499445f8210858c8d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 73a197ed3495b3445830c87009088e81, type: 2}

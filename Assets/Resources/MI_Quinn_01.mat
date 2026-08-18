@@ -137,7 +137,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecSource: 0
     - _SpecularHighlights: 1
-    - _Speed: -0.05
+    - _Speed: 0.05
     - _SpeedVoronoi: 2.5
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
