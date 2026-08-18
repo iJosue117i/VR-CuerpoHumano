@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 14.083333333333334
   m_Retroactive: 0
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: e85a326fce8f15240b40aa3efd0d257b, type: 2}
 --- !u!114 &-2278560930316897888
 MonoBehaviour:
@@ -3034,7 +3034,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Osteo-Etapa3
+  m_Name: Osteo-Etapa 3
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
@@ -3073,6 +3073,23 @@ MonoBehaviour:
   m_Markers:
     m_Objects:
     - {fileID: -6569826022866574205}
+    - {fileID: 2452677069871709182}
+--- !u!114 &2452677069871709182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 28.266666666666666
+  m_Retroactive: 0
+  m_EmitOnce: 1
+  m_Asset: {fileID: 11400000, guid: f18c2310ebbb08d4fa8a2ce3e6391460, type: 2}
 --- !u!114 &2954402135865619109
 MonoBehaviour:
   m_ObjectHideFlags: 1
