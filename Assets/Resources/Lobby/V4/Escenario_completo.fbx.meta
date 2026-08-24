@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: 4f3e0dab685a44e4eb65389c906a0dc8
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bordes_1
+    second: {fileID: 2100000, guid: 7abd9d842952a3249a521ba2d0304a92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bordes_2
+    second: {fileID: 2100000, guid: 244b21eb21b5abc40ab03a6716041436, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAMERA_M
+    second: {fileID: 2100000, guid: 01a42380c2911a14491ebb4f150a9b9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CHARGE_STATION1_M
+    second: {fileID: 2100000, guid: 258185723670d71489884b6f06155ad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DUSTBIN_M
+    second: {fileID: 2100000, guid: a749dfec092391e47abc54ee51dd8f85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emissive1
+    second: {fileID: 2100000, guid: 004ab820d41bd8c4ea6135aaae930755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_BLACK_M
+    second: {fileID: 2100000, guid: 189777e0cca9b1f4f915c28d7b4d306b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_MENPOD_M
+    second: {fileID: 2100000, guid: 1249e5222c488924daa274a2e0a1fbd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Info_Board_Glass_M_Inst_M_CHARGE_STATION_SM
+    second: {fileID: 2100000, guid: b5cdcd7df723b1d42845ec81edb8d1fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_DOOR_1
+    second: {fileID: 2100000, guid: adeddf1e25b472145acbaba2ec561974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_DRAWER_N_1
+    second: {fileID: 2100000, guid: 8accd3d44cd377346b4e1d5a9045ee72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Emission_Warm
+    second: {fileID: 2100000, guid: 6a0662cf7a46bef4da1225a3b2089264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Hand_Reader
+    second: {fileID: 2100000, guid: c4130c1c248bb3f4c9bea85a5d710554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_MED_DEVICE_1
+    second: {fileID: 2100000, guid: 0c77a660da08c1d4d868174fcdc19df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_MENPOD
+    second: {fileID: 2100000, guid: ec7ee8a29369e3d46ba93a499a7382fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Mesh_Mat_Emmisive_2
+    second: {fileID: 2100000, guid: 6d231081e08c21c4b8be0063b5339f43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Microscope
+    second: {fileID: 2100000, guid: 4d56949743a22a24eb788cd97db1c46d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Periodic_Table
+    second: {fileID: 2100000, guid: 98a744957209fe8438320bf23f712a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Periodic_Table_2
+    second: {fileID: 2100000, guid: fd0d4359532349f4c862c8211413ab82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Primary_Material
+    second: {fileID: 2100000, guid: 04b00433181f90843a5e3f277db8a835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_SEAT
+    second: {fileID: 2100000, guid: 95b3dcde58a22204da6cc8ffd7c74050, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_SURGERY_LAMP
+    second: {fileID: 2100000, guid: fc1ce98aa6597404ea6a1447011dfdcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_SURGERY_MONITOR
+    second: {fileID: 2100000, guid: a50b38ae9afcd33499aa3c7e90ad097b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_ULTRASOUND
+    second: {fileID: 2100000, guid: 43ef470a415c1f248a20acb36ec6e44c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_WALL_UNIT
+    second: {fileID: 2100000, guid: dbe775916c1f1844bbf23e07b613144b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BIG_TABLE
+    second: {fileID: 2100000, guid: 5d963a614f114384e98d746adc762882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CIRCLE_MONITOR_2
+    second: {fileID: 2100000, guid: 125c7d62da0df6642a2040eb2fec0104, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_GUARD_DESK_2
+    second: {fileID: 2100000, guid: 4cef352b004ce7e4cbb4d0e07bf9be73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_GUARD_DESK_SCREEN
+    second: {fileID: 2100000, guid: 2fc148ba321ae5f4b98b3fe44fad3904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass1
+    second: {fileID: 2100000, guid: de3688c494bf4b04bb0481f099c9aeb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass_MENPOD
+    second: {fileID: 2100000, guid: 6aaeb9e17a4e73847bbe678fb60b35ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_INFO_BOARD
+    second: {fileID: 2100000, guid: 8d8f797cba2cf5d4c820d5f2b7e6bc58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_LIBRARY_HUMAN_GLASS
+    second: {fileID: 2100000, guid: c8107203c2dc51c4aa27f3fa77a85007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MaterialSphere_Plain
+    second: {fileID: 2100000, guid: 7c826382cf4c93f4a8366f069002b869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesa_central
+    second: {fileID: 2100000, guid: 890d5d9db47e62a4ca84e0e4837b0a9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared_1
+    second: {fileID: 2100000, guid: caffbcc765ebc784aa87bd1c8f06d15f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared_2
+    second: {fileID: 2100000, guid: 06bada8deb36f3f40983e712535b3c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared_3
+    second: {fileID: 2100000, guid: 56f4d9d3571d6ad45a58645185e6cbb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 352b1498f4449384282d5c8cde2365b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_M
+    second: {fileID: 2100000, guid: 28efb85103dae104d92aa1088462d39a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XRAY_DOOR_M
+    second: {fileID: 2100000, guid: f8f314ae1b0622a458e7843726e920de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XRAY_SCREEN_M
+    second: {fileID: 2100000, guid: f4e434b2874e99143b12e1159905da1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: panel_1
+    second: {fileID: 2100000, guid: 3c1a7d3ea8a27e045b8b6ad5f7bbfc03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: panel_2
+    second: {fileID: 2100000, guid: beccd47eb544d4749b212974ed169ede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: panel_3
+    second: {fileID: 2100000, guid: 4e2b3df6e1c34a3479edda911c3c83c2, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

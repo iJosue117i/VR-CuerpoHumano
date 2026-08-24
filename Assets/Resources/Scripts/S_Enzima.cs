@@ -52,6 +52,7 @@ public class S_Enzima : MonoBehaviour
         if (collision.gameObject.CompareTag("Estomago"))
         {
             activateRotation = false;
+           
             efectoPepsina.SetActive(true);
         }
     }
