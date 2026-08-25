@@ -747,6 +747,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4765638283113378929, guid: d57c686016f3fd4428f864119be2185e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5117527564586737266, guid: d57c686016f3fd4428f864119be2185e, type: 3}
       propertyPath: m_Name
       value: Escenario_completo
@@ -3265,7 +3269,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: sujeta las aminoacidos
+  m_Text: sujeta los aminoacidos
 --- !u!222 &1149914976
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -170,9 +170,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4765638283113378929, guid: d57c686016f3fd4428f864119be2185e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5117527564586737266, guid: d57c686016f3fd4428f864119be2185e, type: 3}
       propertyPath: m_Name
       value: Escenario_completo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981028545257563712, guid: d57c686016f3fd4428f864119be2185e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
