@@ -132,35 +132,42 @@ public class Movement : MonoBehaviour
         sphereEvents.gameObject.SetActive(true);
         //in
         Material Materialcolor = sphereEvents.material;
-        Materialcolor.color = new Color(0, 0, 0, 0);
+        //Materialcolor.color = new Color(0, 0, 0, 0);
+        Materialcolor.SetFloat("_Alpha", 0f);
+
         //black
         for (float i = 0; i <= 1; i += 0.2f)
-        {            
-            Color mat = Materialcolor.color;
+        {
+            /*Color mat = Materialcolor.color;
             mat.a = i;
-            Materialcolor.color = mat;
+            Materialcolor.color = mat;*/
+            Materialcolor.SetFloat("_Alpha", i);
             yield return new WaitForSeconds(0.1f);
         }
-        Materialcolor.color = Color.black;
+        //Materialcolor.color = Color.black;
+        Materialcolor.SetFloat("_Alpha", 1f);
     }
 
     IEnumerator TransitionLvlOut()
     {
         sphereEvents.gameObject.SetActive(true);
         Material Materialcolor = sphereEvents.material;
-        Materialcolor.color = Color.black;
+        //Materialcolor.color = Color.black;
+        Materialcolor.SetFloat("_Alpha", 1f);
         yield return new WaitForSeconds(0.2f);
         //out
         for (float i = 1; i >= 0; i -= 0.2f)
         {
-            Color mat = Materialcolor.color;
+            /*Color mat = Materialcolor.color;
             mat.a = i;
-            Materialcolor.color = mat;
+            Materialcolor.color = mat;*/
+            Materialcolor.SetFloat("_Alpha", i);
             yield return new WaitForSeconds(0.1f);
         }
-        Color mf = Materialcolor.color;
+        /*Color mf = Materialcolor.color;
         mf.a = 0;
-        Materialcolor.color = mf;
+        Materialcolor.color = mf;*/
+        Materialcolor.SetFloat("_Alpha", 0f);
         sphereEvents.gameObject.SetActive(false);
     }
     public void Gravedad(float valor)

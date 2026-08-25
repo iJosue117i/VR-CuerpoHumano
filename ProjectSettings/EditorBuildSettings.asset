@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Proteinas_Etapa 0.unity
+    guid: f0c0c460eb39d74468a657227b1663d7
+  - enabled: 1
     path: Assets/Scenes/Proteinas_Etapa1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
