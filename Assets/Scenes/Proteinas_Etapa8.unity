@@ -240,6 +240,99 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &82874487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1628465572}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.012000024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.805
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071066
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710695
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1961587293741351386, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1288194703972566067, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -946065587530719913, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -425691484365566331, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -78596629041876004, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_Name
+      value: adulto_rig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814451019321870971, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406505778882773756, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: afd8e624649a08143a8bbd28236f6005, type: 2}
+    - target: {fileID: 8675510245640436513, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
 --- !u!1 &130619407
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,7 +774,7 @@ PlayableDirector:
   - key: {fileID: 1857194164969631273, guid: 219a03e1c90fc9b4f986748e460291ac, type: 2}
     value: {fileID: 305868536}
   - key: {fileID: -6402345595351153521, guid: 219a03e1c90fc9b4f986748e460291ac, type: 2}
-    value: {fileID: 1746753601}
+    value: {fileID: 588957348}
   - key: {fileID: -1700260487451228887, guid: 219a03e1c90fc9b4f986748e460291ac, type: 2}
     value: {fileID: 2022516127}
   - key: {fileID: -1864773275488869345, guid: 219a03e1c90fc9b4f986748e460291ac, type: 2}
@@ -751,40 +844,28 @@ MonoBehaviour:
           m_CallState: 2
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: S_SoltarAminoacidos, Assembly-CSharp
-          m_MethodName: LiberarAminoacidosDirector
-          m_Mode: 1
+        - m_Target: {fileID: 2022516127}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: Stretch
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: S_SoltarAminoacidos, Assembly-CSharp
-          m_MethodName: LiberarAminoacidosDirector
-          m_Mode: 1
+        - m_Target: {fileID: 588957348}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: S_SoltarAminoacidos, Assembly-CSharp
-          m_MethodName: LiberarAminoacidosDirector
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: Stretch
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &305868537
@@ -1601,6 +1682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sistemas_musculatorio
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 113881335dddff647ae80a040e6f9727, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3646658621534073527, guid: 113881335dddff647ae80a040e6f9727, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1687,6 +1772,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &588957347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+  m_PrefabInstance: {fileID: 82874487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &588957348 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 0efc5f33e14211c42961fa34f9a9c116, type: 3}
+  m_PrefabInstance: {fileID: 82874487}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &623476331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2200,6 +2295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hombre_animaciones
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ca87cbece3963f946a89b034023b9043, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4747962948313757172, guid: ca87cbece3963f946a89b034023b9043, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 15
@@ -2530,7 +2629,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746753601}
+      - m_Target: {fileID: 588957348}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
@@ -2556,8 +2655,8 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1932202069}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3142,7 +3241,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746753601}
+      - m_Target: {fileID: 588957348}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
@@ -3168,8 +3267,8 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1932202069}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3328,7 +3427,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746753601}
+      - m_Target: {fileID: 588957348}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
@@ -3354,8 +3453,8 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1932202069}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3638,6 +3737,7 @@ Transform:
   - {fileID: 1095254873}
   - {fileID: 2022516126}
   - {fileID: 471867122}
+  - {fileID: 588957347}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693072168
@@ -3724,11 +3824,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693072168}
   m_Mesh: {fileID: -6122206330021229093, guid: 4f3e0dab685a44e4eb65389c906a0dc8, type: 3}
---- !u!95 &1746753601 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ca87cbece3963f946a89b034023b9043, type: 3}
-  m_PrefabInstance: {fileID: 1095254872}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1799386188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4108,7 +4203,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 113881335dddff647ae80a040e6f9727, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 113881335dddff647ae80a040e6f9727, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4116,7 +4211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 113881335dddff647ae80a040e6f9727, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.422
+      value: 0.707
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 113881335dddff647ae80a040e6f9727, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4595,7 +4690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1846311567183769461, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 2315006648526586797, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
       propertyPath: m_Enabled
