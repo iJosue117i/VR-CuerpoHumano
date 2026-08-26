@@ -471,6 +471,10 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[0]
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -706651598543230384, guid: 3c6987861f04ecd46ba3c8ab64617f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -318428753984586254, guid: 3c6987861f04ecd46ba3c8ab64617f7d, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -513,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3c6987861f04ecd46ba3c8ab64617f7d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8601760924900572087, guid: 3c6987861f04ecd46ba3c8ab64617f7d, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6043,7 +6047,8 @@ PrefabInstance:
       value: -0.00000694394
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4371716150535152234, guid: ec30f6dfae452bb49bc84d8190f6dfb4, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8186250477433092813, guid: ec30f6dfae452bb49bc84d8190f6dfb4, type: 3}
       insertIndex: -1
@@ -9455,6 +9460,10 @@ PrefabInstance:
     - target: {fileID: 1846311567183769461, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315006648526586797, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
+      propertyPath: initWithTransition
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2521878604370515868, guid: ebe7267db6dab9e4ca20699501626a8b, type: 3}
       propertyPath: m_LocalPosition.x
